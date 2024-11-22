@@ -41,6 +41,7 @@ To make importing files in Jupyter Notebook easier, renamed the following files:
 | UBC_Calgary_Ottawa_Laval_Final_Summerized_Patients_Table_Metrics_For Dr. Ayas.xlsx | patients_data.xlsx |
 
 #### 4. Project Structure
+```bash
 project_root/
 │
 ├── venv/
@@ -48,6 +49,7 @@ project_root/
 ├── patients_data.xlsx
 ├── requirements.txt
 └── README.md
+```
 
 #### 5. Additional Notes
 - Always activate your virtual environment before working on the project

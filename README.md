@@ -1,37 +1,56 @@
-**Project Name**
+# Project Name
 
-Setup and Installation Guide
+## Setup and Installation Guide
 
-**Prerequisites**
+### Prerequisites
+
 - Python 3.8+ (currently using Python 3.11.6)
 - pip (currently using pip 23.2.1)
 - virtualenv (recommended)
-  
-**Step-by-Step Installation**
-1. Create and Activate Virtual Environment
 
-On Windows:
-```
+### Step-by-Step Installation
+
+#### 1. Create and Activate Virtual Environment
+
+**On Windows:**
+
+```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-On MacOS/Linux:
-```
-python3 -m venv venv
-source venv/bin/activate
+**On MacOS/Linux:**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
-2. Install requirements
-```
+
+#### 2. Install requirements
+```bash
 pip install -r requirements.txt
 ```
 
-3. Rename Files for Jupyter Notebook Importing
+#### 3. Rename Files for Jupyter Notebook Importing
+
 To make importing files in Jupyter Notebook easier, renamed the following files:
+| Original Filename | New Filename |
+|-------------------|--------------|
+| CSCN_BaselineData_MSS_2024-11-07.xlsx | features_data.xlsx |
+| UBC_Calgary_Ottawa_Laval_Final_Summerized_Patients_Table_Metrics_For Dr. Ayas.xlsx | patients_data.xlsx |
 
-```CSCN_BaselineData_MSS_2024-11-07.xlsx  ->  features_data.xlsx```
+#### 4. Project Structure
+project_root/
+│
+├── venv/
+├── features_data.xlsx
+├── patients_data.xlsx
+├── requirements.txt
+└── README.md
 
-``` UBC_Calgary_Ottawa_Laval_Final_Summerized_Patients_Table_Metrics_For Dr. Ayas.xlsx  ->  patients_data.xlsx ```
-
+#### 5. Additional Notes
+- Always activate your virtual environment before working on the project
+- Ensure all dependencies are listed in requirements.txt
+- If you encounter any issues, please check the versions of Python and pip
 

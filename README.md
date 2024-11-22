@@ -1,4 +1,4 @@
-# OSA Sleep Study: 
+# OSA Sleep Study
 Using Machine learning to predict OSA (Obstructive Sleep Apnea)
 
 ## Setup and Installation Guide

@@ -29,7 +29,11 @@ pip install -r requirements.txt
 
 3. Rename Files for Jupyter Notebook Importing
 To make importing files in Jupyter Notebook easier, renamed the following files:
-- Rename CSCN_BaselineData_MSS_2024-11-07.xlsx -> features_data.xlsx
-- Rename UBC_Calgary_Ottawa_Laval_Final_Summerized_Patients_Table_Metrics_For Dr. Ayas.xlsx -> patients_data.xlsx
+
+- From: CSCN_BaselineData_MSS_2024-11-07.xlsx
+To: features_data.xlsx
+
+- From: UBC_Calgary_Ottawa_Laval_Final_Summerized_Patients_Table_Metrics_For Dr. Ayas.xlsx
+To: patients_data.xlsx
 
 
